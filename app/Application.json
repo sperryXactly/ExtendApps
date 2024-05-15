@@ -1,9 +1,9 @@
 {
   "accessRoles": [],
-  "applicationId": "ce26d8f2-7ceb-470a-8fdc-bacd2e47b588",
+  "applicationId": "47ba1a20-5032-4214-8506-2b9f172f8073",
   "applicationName": "Quota Planning",
   "applicationState": "DRAFT",
-  "defaultBranch": "develop",
+  "defaultBranch": "main",
   "gitUrl": "https://github.com/sperryXactly/ExtendApps",
   "icon": "LogoIconOnlyBenchmarkingComponent",
   "sections": []
