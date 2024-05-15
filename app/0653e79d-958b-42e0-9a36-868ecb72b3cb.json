@@ -1,0 +1,15 @@
+{
+  "description": null,
+  "pageDefinitionId": "0653e79d-958b-42e0-9a36-868ecb72b3cb",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "My Team Quotas",
+  "versionName": "1.0"
+}

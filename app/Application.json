@@ -6,5 +6,44 @@
   "defaultBranch": "develop",
   "gitUrl": "https://github.com/sperryXactly/ExtendApps",
   "icon": "LogoIconOnlyBenchmarkingComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "Quotas",
+      "icon": "Home",
+      "sections": [
+        {
+          "accessRoles": null,
+          "privileges": null,
+          "name": "My Quotas",
+          "icon": "Address Book",
+          "sections": []
+        },
+        {
+          "accessRoles": null,
+          "privileges": null,
+          "name": "My Teams Quotas",
+          "icon": "Address Book",
+          "pageDefinitionId": "0653e79d-958b-42e0-9a36-868ecb72b3cb",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "Quota Management ",
+      "icon": "Address Book",
+      "sections": [
+        {
+          "accessRoles": null,
+          "privileges": null,
+          "name": "Create Plan",
+          "icon": "Address Book",
+          "sections": []
+        }
+      ]
+    }
+  ]
 }
