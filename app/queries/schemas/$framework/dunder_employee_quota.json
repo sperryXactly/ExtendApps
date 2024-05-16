@@ -1,0 +1,18 @@
+{
+  "variables": [
+    {
+      "name": "v_employee_id",
+      "value": "1",
+      "dataType": "String",
+      "queryId": "3f2982a023e0f3d33b304af3d878028a.ent92f24933544304f5b2b2c7d8bdf27",
+      "id": "a28635f9342c94726264caa996fabca3.ente07ce22c4867f02f5b6900c5dcb69"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "dunder_employee_quota",
+  "description": null,
+  "id": "3f2982a023e0f3d33b304af3d878028a.ent92f24933544304f5b2b2c7d8bdf27",
+  "xsql": "select * from $framework.dunderOrders where employee_id=:v_employee_id",
+  "dependencies": []
+}

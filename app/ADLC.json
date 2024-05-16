@@ -2,5 +2,24 @@
   "application": "app/Application.json",
   "pageDefinitions": [
     "app/1856a3aa-be45-4b22-b199-a219e0fda8fa.json"
+  ],
+  "tables": {
+    "schemas": [
+      "tables/schemas/$framework/dunderemployees.json",
+      "tables/schemas/$framework/dunderOrders.json"
+    ],
+    "data": [
+      {
+        "name": "$framework.dunderOrders",
+        "path": "tables/data/$framework/dunderOrders.csv"
+      },
+      {
+        "name": "$framework.dunderemployees",
+        "path": "tables/data/$framework/dunderemployees.csv"
+      }
+    ]
+  },
+  "queries": [
+    "queries/schemas/$framework/dunder_employee_quota.json"
   ]
 }
