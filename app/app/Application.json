@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "d0e1b4a6-0fe9-4507-9d72-fa2372237fd7",
+  "applicationName": "asd",
+  "applicationState": "DRAFT",
+  "defaultBranch": "develop",
+  "gitSubpath": "app",
+  "gitUrl": "https://github.com/sperryXactly/ExtendApps",
+  "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "sections": []
+}
