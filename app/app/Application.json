@@ -1,42 +1,42 @@
 {
   "accessRoles": [],
   "applicationId": "d0e1b4a6-0fe9-4507-9d72-fa2372237fd7",
-  "applicationName": "asd",
+  "applicationName": "Quota Planning",
   "applicationState": "DRAFT",
   "defaultBranch": "develop",
   "gitSubpath": "app",
   "gitUrl": "https://github.com/sperryXactly/ExtendApps",
-  "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "icon": "LogoIconOnlyBenchmarkingComponent",
   "sections": [
     {
-      "accessRoles": null,
-      "privileges": null,
       "name": "Quotas",
       "icon": "Home",
       "sections": [
         {
-          "accessRoles": null,
-          "privileges": null,
           "name": "My Quotas",
           "icon": "Address Book",
-          "sections": []
+          "sections": [],
+          "accessRoles": null,
+          "privileges": null
         },
         {
-          "accessRoles": null,
-          "privileges": null,
           "name": "My Teams Quotas",
           "icon": "Address Book",
           "pageDefinitionId": "1856a3aa-be45-4b22-b199-a219e0fda8fa",
-          "sections": []
+          "sections": [],
+          "accessRoles": null,
+          "privileges": null
         }
-      ]
+      ],
+      "accessRoles": null,
+      "privileges": null
     },
     {
-      "accessRoles": null,
-      "privileges": null,
       "name": "Quota Management ",
       "icon": "Process Flow",
-      "sections": []
+      "sections": [],
+      "accessRoles": null,
+      "privileges": null
     }
   ]
 }
