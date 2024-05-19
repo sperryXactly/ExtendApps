@@ -357,6 +357,16 @@
             },
             "columns": [
               {
+                "field": "employee_name",
+                "name": "employee_name",
+                "headerName": "Employee",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": true
+              },
+              {
                 "field": "order_id",
                 "name": "order_id",
                 "headerName": "Order ID",
