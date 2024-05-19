@@ -16,6 +16,14 @@
       {
         "name": "$framework.dunderemployees",
         "path": "tables/data/$framework/dunderemployees.csv"
+      },
+      {
+        "name": "dunderOrders",
+        "path": "tables/data/dunderOrders/undefined.csv"
+      },
+      {
+        "name": "dunderemployees",
+        "path": "tables/data/dunderemployees/undefined.csv"
       }
     ]
   },
