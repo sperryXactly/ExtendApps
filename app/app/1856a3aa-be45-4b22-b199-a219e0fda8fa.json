@@ -45,9 +45,9 @@
               }
             ],
             "datasource": {
-              "name": "dunderemployees",
-              "type": "table",
-              "isReadOnly": false,
+              "name": "dunder_quotas",
+              "type": "view",
+              "isReadOnly": true,
               "schema": "$framework",
               "seriesColors": {}
             },
@@ -68,10 +68,10 @@
                 "sortable": false
               },
               {
-                "field": "quota_amount",
-                "name": "quota_amount",
+                "field": "quota_formatted",
+                "name": "quota_formatted",
                 "headerName": "Quota",
-                "dataType": "integer",
+                "dataType": "string",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
