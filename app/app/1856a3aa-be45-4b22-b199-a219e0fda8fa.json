@@ -7,6 +7,108 @@
       "schema": {
         "type": "object",
         "properties": {
+          "control_8": {
+            "type": "tile",
+            "controlId": "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": null,
+              "schema": null,
+              "fields": null,
+              "type": null,
+              "isReadOnly": false,
+              "columns": null,
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "titleText": "Employee Name",
+            "subtitleText": "",
+            "icon": "No Icon",
+            "data": "",
+            "column": "",
+            "layoutSize": 25,
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false
+          },
+          "control_9": {
+            "type": "tile",
+            "controlId": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_employee_quota",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "titleText": "Total Sales",
+            "subtitleText": "",
+            "icon": "No Icon",
+            "data": "",
+            "column": "",
+            "layoutSize": 25,
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false
+          },
           "control_6": {
             "type": "table",
             "controlId": "643de25d-3fe2-430d-aeb7-149f2512f415",
