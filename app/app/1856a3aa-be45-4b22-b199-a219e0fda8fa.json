@@ -364,16 +364,6 @@
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
-                "sortable": true
-              },
-              {
-                "field": "order_id",
-                "name": "order_id",
-                "headerName": "Order ID",
-                "dataType": "string",
-                "editable": false,
-                "isPrimaryKey": false,
-                "formattingStyle": "default",
                 "sortable": false
               },
               {
@@ -389,7 +379,7 @@
               {
                 "field": "amount",
                 "name": "amount",
-                "headerName": "Deal Amount",
+                "headerName": "Amount",
                 "dataType": "integer",
                 "editable": false,
                 "isPrimaryKey": false,
@@ -409,8 +399,18 @@
               {
                 "field": "date",
                 "name": "date",
-                "headerName": "Date",
+                "headerName": "Closed Won Date",
                 "dataType": "date",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "order_id",
+                "name": "order_id",
+                "headerName": "Order ID",
+                "dataType": "string",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
@@ -418,7 +418,12 @@
               }
             ],
             "whereClauseVariable": null,
-            "variables": [],
+            "variables": [
+              {
+                "name": "v_employee_id",
+                "boundToField": "employee_id"
+              }
+            ],
             "table": "grid",
             "title": "",
             "maxHeight": null,
