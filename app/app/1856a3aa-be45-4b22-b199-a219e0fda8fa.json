@@ -102,7 +102,7 @@
             "subtitleText": "",
             "icon": "No Icon",
             "data": "",
-            "column": "",
+            "column": "total_sales",
             "layoutSize": 25,
             "helpIconValue": null,
             "helpIconPosition": "alignLeft",
