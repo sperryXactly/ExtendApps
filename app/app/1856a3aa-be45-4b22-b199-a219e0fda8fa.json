@@ -115,7 +115,7 @@
               }
             ],
             "datasource": {
-              "name": "dunder_employee_quota",
+              "name": "dunder_employee_total_sales",
               "type": "view",
               "isReadOnly": true,
               "schema": "$framework",
@@ -293,6 +293,16 @@
             },
             "columns": [
               {
+                "field": "employee_name",
+                "name": "employee_name",
+                "headerName": "Employee",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
                 "field": "customer",
                 "name": "customer",
                 "headerName": "Customer",
@@ -303,8 +313,8 @@
                 "sortable": false
               },
               {
-                "field": "amount_formatted",
-                "name": "amount_formatted",
+                "field": "formatted_amount",
+                "name": "formatted_amount",
                 "headerName": "Amount",
                 "dataType": "string",
                 "editable": false,
