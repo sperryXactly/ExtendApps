@@ -159,10 +159,10 @@
                 "sortable": false
               },
               {
-                "field": "amount",
-                "name": "amount",
+                "field": "amount_formatted",
+                "name": "amount_formatted",
                 "headerName": "Amount",
-                "dataType": "integer",
+                "dataType": "string",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
