@@ -30,15 +30,29 @@
                 ],
                 "preHandlers": [],
                 "preHandlerArgs": []
+              },
+              {
+                "name": "refresh",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               }
             ],
             "datasource": {
-              "name": null,
-              "schema": null,
-              "fields": null,
-              "type": null,
-              "isReadOnly": false,
-              "columns": null,
+              "name": "dunder_employee_name",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
               "seriesColors": {}
             },
             "pagination": {
@@ -52,7 +66,7 @@
             "subtitleText": "",
             "icon": "No Icon",
             "data": "",
-            "column": "",
+            "column": "employee_name",
             "layoutSize": 25,
             "helpIconValue": null,
             "helpIconPosition": "alignLeft",
@@ -73,6 +87,22 @@
               {
                 "name": "$onPageLoad",
                 "eventSelection": "BIND_EVENT",
+                "id": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              },
+              {
+                "name": "refresh",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
                 "id": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
                 "handlers": [
                   "refresh"
@@ -135,6 +165,18 @@
               },
               {
                 "name": "stick",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "643de25d-3fe2-430d-aeb7-149f2512f415",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              },
+              {
+                "name": "refresh",
                 "eventSelection": "CREATE_EVENT",
                 "broadcastArgs": {
                   "validationXsql": ""
