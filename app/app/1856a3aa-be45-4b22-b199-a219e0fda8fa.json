@@ -1,540 +1,627 @@
 {
-  "pageDefinitionId" : "1856a3aa-be45-4b22-b199-a219e0fda8fa",
-  "pageSchema" : {
-    "properties" : { },
-    "controlSchema" : {
-      "schema" : {
-        "type" : "object",
-        "properties" : {
-          "control_12" : {
-            "type" : "modal",
-            "controlId" : "410525c3-0b91-4f6c-bf80-b75bbef8a2e1",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+  "pageDefinitionId": "1856a3aa-be45-4b22-b199-a219e0fda8fa",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "control_12": {
+            "type": "modal",
+            "controlId": "410525c3-0b91-4f6c-bf80-b75bbef8a2e1",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "salesToDateChart",
-              "eventSelection" : "BIND_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
-              },
-              "id" : "410525c3-0b91-4f6c-bf80-b75bbef8a2e1",
-              "handlers" : [ "toggle" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "variables" : [ ],
-            "modalSize" : "md",
-            "hasHeader" : true,
-            "hasFooter" : false,
-            "modalHeaderMessage" : "Deal Size Trend",
-            "pageSchema" : {
-              "properties" : { },
-              "controlSchema" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : {
-                    "control_13" : {
-                      "type" : "chart",
-                      "controlId" : "ed94eb3f-88e3-41f7-afb7-56a1bce9981f",
-                      "accessRoles" : null,
-                      "privileges" : null,
-                      "styles" : {
-                        "useComponentShadow" : false,
-                        "useGreyBackground" : false,
-                        "useInnerGreyBackground" : false
+            "events": [
+              {
+                "name": "salesToDateChart",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "410525c3-0b91-4f6c-bf80-b75bbef8a2e1",
+                "handlers": [
+                  "toggle"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "variables": [],
+            "modalSize": "md",
+            "hasHeader": true,
+            "hasFooter": false,
+            "modalHeaderMessage": "Deal Size Trend",
+            "pageSchema": {
+              "properties": {},
+              "controlSchema": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "control_13": {
+                      "type": "chart",
+                      "controlId": "ed94eb3f-88e3-41f7-afb7-56a1bce9981f",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
                       },
-                      "events" : [ {
-                        "name" : "$onModalOpen",
-                        "eventSelection" : "BIND_EVENT",
-                        "id" : "ed94eb3f-88e3-41f7-afb7-56a1bce9981f",
-                        "handlers" : [ "refresh" ],
-                        "handlerArgs" : [ { } ],
-                        "preHandlers" : [ ],
-                        "preHandlerArgs" : [ ]
-                      } ],
-                      "datasource" : {
-                        "name" : "dunder_employee_quota",
-                        "type" : "view",
-                        "isReadOnly" : true,
-                        "schema" : "$framework",
-                        "seriesColors" : {
-                          "amount" : "#3e99ab"
+                      "events": [
+                        {
+                          "name": "$onModalOpen",
+                          "eventSelection": "BIND_EVENT",
+                          "id": "ed94eb3f-88e3-41f7-afb7-56a1bce9981f",
+                          "handlers": [
+                            "refresh"
+                          ],
+                          "handlerArgs": [
+                            {}
+                          ],
+                          "preHandlers": [],
+                          "preHandlerArgs": []
+                        }
+                      ],
+                      "datasource": {
+                        "name": "dunder_employee_quota",
+                        "type": "view",
+                        "isReadOnly": true,
+                        "schema": "$framework",
+                        "seriesColors": {
+                          "amount": "#3e99ab"
                         }
                       },
-                      "pagination" : {
-                        "currentPage" : 1,
-                        "totalItems" : null,
-                        "itemsPerPage" : 200
+                      "pagination": {
+                        "currentPage": 1,
+                        "totalItems": null,
+                        "itemsPerPage": 200
                       },
-                      "columns" : [ ],
-                      "whereClauseVariable" : null,
-                      "chartType" : "area",
-                      "title" : "",
-                      "subtitle" : "",
-                      "xAxis" : {
-                        "title" : {
-                          "text" : ""
+                      "columns": [],
+                      "whereClauseVariable": null,
+                      "chartType": "area",
+                      "title": "",
+                      "subtitle": "",
+                      "xAxis": {
+                        "title": {
+                          "text": ""
                         },
-                        "type" : ""
+                        "type": ""
                       },
-                      "yAxis" : {
-                        "title" : {
-                          "text" : ""
+                      "yAxis": {
+                        "title": {
+                          "text": ""
                         }
                       },
-                      "ref" : { },
-                      "xAxisField" : "order_id",
-                      "yAxisFields" : [ "amount" ],
-                      "layoutSize" : null,
-                      "titleAlignment" : "left",
-                      "subtitleAlignment" : "left",
-                      "helpIconValue" : null,
-                      "helpIconPosition" : "alignLeft",
-                      "helpIconTooltipPosition" : "right",
-                      "shouldRenderHidden" : false
+                      "ref": {},
+                      "xAxisField": "order_id",
+                      "yAxisFields": [
+                        "amount"
+                      ],
+                      "layoutSize": null,
+                      "titleAlignment": "left",
+                      "subtitleAlignment": "left",
+                      "helpIconValue": null,
+                      "helpIconPosition": "alignLeft",
+                      "helpIconTooltipPosition": "right",
+                      "shouldRenderHidden": false
                     }
                   }
                 }
               }
             },
-            "footerSchema" : {
-              "properties" : { },
-              "controlSchema" : {
-                "schema" : {
-                  "type" : "object",
-                  "properties" : { }
+            "footerSchema": {
+              "properties": {},
+              "controlSchema": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
                 }
               }
             },
-            "innerCanvasMappings" : {
-              "pageSchema" : "appElements",
-              "footerSchema" : "footerElements"
+            "innerCanvasMappings": {
+              "pageSchema": "appElements",
+              "footerSchema": "footerElements"
             },
-            "internalName" : ""
+            "internalName": "Deal Size MOdal"
           },
-          "control_8" : {
-            "type" : "tile",
-            "controlId" : "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+          "control_8": {
+            "type": "tile",
+            "controlId": "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "$onPageLoad",
-              "eventSelection" : "BIND_EVENT",
-              "id" : "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "refresh",
-              "eventSelection" : "BIND_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "datasource" : {
-              "name" : "dunder_employee_name",
-              "type" : "view",
-              "isReadOnly" : true,
-              "schema" : "$framework",
-              "seriesColors" : { }
+              {
+                "name": "refresh",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "d72bd2eb-4a6e-45f6-83b5-0b4c56badfcd",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_employee_name",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
             },
-            "pagination" : {
-              "currentPage" : 1,
-              "totalItems" : null,
-              "itemsPerPage" : 200
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
             },
-            "columns" : [ ],
-            "whereClauseVariable" : null,
-            "titleText" : "Employee Name",
-            "subtitleText" : "",
-            "icon" : "No Icon",
-            "data" : "",
-            "column" : "employee_name",
-            "layoutSize" : 25,
-            "helpIconValue" : null,
-            "helpIconPosition" : "alignLeft",
-            "helpIconTooltipPosiiton" : "right",
-            "shouldRenderHidden" : false
+            "columns": [],
+            "whereClauseVariable": null,
+            "titleText": "Employee Name",
+            "subtitleText": "",
+            "icon": "No Icon",
+            "data": "",
+            "column": "employee_name",
+            "layoutSize": 25,
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false
           },
-          "control_9" : {
-            "type" : "tile",
-            "controlId" : "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+          "control_9": {
+            "type": "tile",
+            "controlId": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "$onPageLoad",
-              "eventSelection" : "BIND_EVENT",
-              "id" : "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "refresh",
-              "eventSelection" : "BIND_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "salesToDateChart",
-              "eventSelection" : "CREATE_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+              {
+                "name": "refresh",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
-              "handlers" : [ ],
-              "handlerArgs" : [ ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "datasource" : {
-              "name" : "dunder_employee_total_sales",
-              "type" : "view",
-              "isReadOnly" : true,
-              "schema" : "$framework",
-              "seriesColors" : { }
+              {
+                "name": "salesToDateChart",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "a5c28f4c-566d-49ba-a454-2e9fd8e3824b",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_employee_total_sales",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
             },
-            "pagination" : {
-              "currentPage" : 1,
-              "totalItems" : null,
-              "itemsPerPage" : 200
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
             },
-            "columns" : [ ],
-            "whereClauseVariable" : null,
-            "titleText" : "Total Sales",
-            "subtitleText" : "",
-            "icon" : "No Icon",
-            "data" : "",
-            "column" : "total_sales",
-            "layoutSize" : 25,
-            "helpIconValue" : null,
-            "helpIconPosition" : "alignLeft",
-            "helpIconTooltipPosiiton" : "right",
-            "shouldRenderHidden" : false
+            "columns": [],
+            "whereClauseVariable": null,
+            "titleText": "Total Sales",
+            "subtitleText": "",
+            "icon": "No Icon",
+            "data": "",
+            "column": "total_sales",
+            "layoutSize": 25,
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false
           },
-          "control_10" : {
-            "type" : "tile",
-            "controlId" : "74da5eb3-eb50-4b9c-96d4-5d01f06ddc29",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+          "control_10": {
+            "type": "tile",
+            "controlId": "74da5eb3-eb50-4b9c-96d4-5d01f06ddc29",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "$onPageLoad",
-              "eventSelection" : "BIND_EVENT",
-              "id" : "74da5eb3-eb50-4b9c-96d4-5d01f06ddc29",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "refresh",
-              "eventSelection" : "BIND_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "74da5eb3-eb50-4b9c-96d4-5d01f06ddc29",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "74da5eb3-eb50-4b9c-96d4-5d01f06ddc29",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "datasource" : {
-              "name" : "dunder_quota_attainment",
-              "type" : "view",
-              "isReadOnly" : true,
-              "schema" : "$framework",
-              "seriesColors" : { }
+              {
+                "name": "refresh",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "74da5eb3-eb50-4b9c-96d4-5d01f06ddc29",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_quota_attainment",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
             },
-            "pagination" : {
-              "currentPage" : 1,
-              "totalItems" : null,
-              "itemsPerPage" : 200
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
             },
-            "columns" : [ ],
-            "whereClauseVariable" : null,
-            "titleText" : "Quota Attainment",
-            "subtitleText" : "",
-            "icon" : "No Icon",
-            "data" : "",
-            "column" : "attainment_percentage",
-            "layoutSize" : 25,
-            "helpIconValue" : null,
-            "helpIconPosition" : "alignLeft",
-            "helpIconTooltipPosiiton" : "right",
-            "shouldRenderHidden" : false
+            "columns": [],
+            "whereClauseVariable": null,
+            "titleText": "Quota Attainment",
+            "subtitleText": "",
+            "icon": "No Icon",
+            "data": "",
+            "column": "attainment_percentage",
+            "layoutSize": 25,
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false
           },
-          "control_11" : {
-            "type" : "tile",
-            "controlId" : "ea96f26c-371c-4040-a31e-21a42cc6dca0",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+          "control_11": {
+            "type": "tile",
+            "controlId": "ea96f26c-371c-4040-a31e-21a42cc6dca0",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "$onPageLoad",
-              "eventSelection" : "BIND_EVENT",
-              "id" : "ea96f26c-371c-4040-a31e-21a42cc6dca0",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "datasource" : {
-              "name" : "dunder_days_left_in_period",
-              "type" : "view",
-              "isReadOnly" : true,
-              "schema" : "$framework",
-              "seriesColors" : { }
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "ea96f26c-371c-4040-a31e-21a42cc6dca0",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_days_left_in_period",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
             },
-            "pagination" : {
-              "currentPage" : 1,
-              "totalItems" : null,
-              "itemsPerPage" : 200
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
             },
-            "columns" : [ ],
-            "whereClauseVariable" : null,
-            "titleText" : "Days left in Period",
-            "subtitleText" : "",
-            "icon" : "No Icon",
-            "data" : "",
-            "column" : "daysleft",
-            "layoutSize" : 25,
-            "helpIconValue" : null,
-            "helpIconPosition" : "alignLeft",
-            "helpIconTooltipPosiiton" : "right",
-            "shouldRenderHidden" : false
+            "columns": [],
+            "whereClauseVariable": null,
+            "titleText": "Days left in Period",
+            "subtitleText": "",
+            "icon": "No Icon",
+            "data": "",
+            "column": "daysleft",
+            "layoutSize": 25,
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "shouldRenderHidden": false
           },
-          "control_6" : {
-            "type" : "table",
-            "controlId" : "643de25d-3fe2-430d-aeb7-149f2512f415",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+          "control_6": {
+            "type": "table",
+            "controlId": "643de25d-3fe2-430d-aeb7-149f2512f415",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "$onPageLoad",
-              "eventSelection" : "BIND_EVENT",
-              "id" : "643de25d-3fe2-430d-aeb7-149f2512f415",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "stick",
-              "eventSelection" : "CREATE_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "643de25d-3fe2-430d-aeb7-149f2512f415",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "643de25d-3fe2-430d-aeb7-149f2512f415",
-              "handlers" : [ ],
-              "handlerArgs" : [ ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "refresh",
-              "eventSelection" : "CREATE_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+              {
+                "name": "stick",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "643de25d-3fe2-430d-aeb7-149f2512f415",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "643de25d-3fe2-430d-aeb7-149f2512f415",
-              "handlers" : [ ],
-              "handlerArgs" : [ ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "datasource" : {
-              "name" : "dunder_quotas",
-              "type" : "view",
-              "isReadOnly" : true,
-              "schema" : "$framework",
-              "seriesColors" : { }
+              {
+                "name": "refresh",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "643de25d-3fe2-430d-aeb7-149f2512f415",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_quotas",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
             },
-            "pagination" : {
-              "currentPage" : 1,
-              "totalItems" : null,
-              "itemsPerPage" : 200
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
             },
-            "columns" : [ {
-              "field" : "employee_name",
-              "name" : "employee_name",
-              "headerName" : "Employee",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            }, {
-              "field" : "quota_formatted",
-              "name" : "quota_formatted",
-              "headerName" : "Quota",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            } ],
-            "whereClauseVariable" : null,
-            "variables" : [ {
-              "name" : "v_employee_id",
-              "boundToField" : "employee_id"
-            } ],
-            "table" : "grid",
-            "title" : "",
-            "maxHeight" : null,
-            "shouldRenderHidden" : false,
-            "stickyRowSelectEnabled" : true,
-            "multiSelectEnabled" : false,
-            "selectedField" : "",
-            "selectedVariable" : ""
+            "columns": [
+              {
+                "field": "employee_name",
+                "name": "employee_name",
+                "headerName": "Employee",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "quota_formatted",
+                "name": "quota_formatted",
+                "headerName": "Quota",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "variables": [
+              {
+                "name": "v_employee_id",
+                "boundToField": "employee_id"
+              }
+            ],
+            "table": "grid",
+            "title": "",
+            "maxHeight": null,
+            "shouldRenderHidden": false,
+            "stickyRowSelectEnabled": true,
+            "multiSelectEnabled": false,
+            "selectedField": "",
+            "selectedVariable": ""
           },
-          "control_7" : {
-            "type" : "table",
-            "controlId" : "3d3c97aa-3650-4090-a4cb-f7f34c00d456",
-            "accessRoles" : null,
-            "privileges" : null,
-            "styles" : {
-              "useComponentShadow" : false,
-              "useGreyBackground" : false,
-              "useInnerGreyBackground" : false
+          "control_7": {
+            "type": "table",
+            "controlId": "3d3c97aa-3650-4090-a4cb-f7f34c00d456",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
             },
-            "events" : [ {
-              "name" : "$onPageLoad",
-              "eventSelection" : "BIND_EVENT",
-              "id" : "3d3c97aa-3650-4090-a4cb-f7f34c00d456",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            }, {
-              "name" : "stick",
-              "eventSelection" : "BIND_EVENT",
-              "broadcastArgs" : {
-                "validationXsql" : ""
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "3d3c97aa-3650-4090-a4cb-f7f34c00d456",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               },
-              "id" : "3d3c97aa-3650-4090-a4cb-f7f34c00d456",
-              "handlers" : [ "refresh" ],
-              "handlerArgs" : [ { } ],
-              "preHandlers" : [ ],
-              "preHandlerArgs" : [ ]
-            } ],
-            "datasource" : {
-              "name" : "dunder_employee_quota",
-              "type" : "view",
-              "isReadOnly" : true,
-              "schema" : "$framework",
-              "seriesColors" : { }
+              {
+                "name": "stick",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "3d3c97aa-3650-4090-a4cb-f7f34c00d456",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "dunder_employee_quota",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
             },
-            "pagination" : {
-              "currentPage" : 1,
-              "totalItems" : null,
-              "itemsPerPage" : 200
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
             },
-            "columns" : [ {
-              "field" : "employee_name",
-              "name" : "employee_name",
-              "headerName" : "Employee",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            }, {
-              "field" : "customer",
-              "name" : "customer",
-              "headerName" : "Customer",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            }, {
-              "field" : "formatted_amount",
-              "name" : "formatted_amount",
-              "headerName" : "Amount",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            }, {
-              "field" : "product",
-              "name" : "product",
-              "headerName" : "Product",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            }, {
-              "field" : "date",
-              "name" : "date",
-              "headerName" : "Closed Won Date",
-              "dataType" : "date",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            }, {
-              "field" : "order_id",
-              "name" : "order_id",
-              "headerName" : "Order ID",
-              "dataType" : "string",
-              "editable" : false,
-              "isPrimaryKey" : false,
-              "formattingStyle" : "default",
-              "sortable" : false
-            } ],
-            "whereClauseVariable" : null,
-            "variables" : [ {
-              "name" : "v_employee_id",
-              "boundToField" : "employee_id"
-            } ],
-            "table" : "grid",
-            "title" : "",
-            "maxHeight" : null,
-            "shouldRenderHidden" : false
+            "columns": [
+              {
+                "field": "employee_name",
+                "name": "employee_name",
+                "headerName": "Employee",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "customer",
+                "name": "customer",
+                "headerName": "Customer",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "formatted_amount",
+                "name": "formatted_amount",
+                "headerName": "Amount",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "product",
+                "name": "product",
+                "headerName": "Product",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "date",
+                "name": "date",
+                "headerName": "Closed Won Date",
+                "dataType": "date",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "order_id",
+                "name": "order_id",
+                "headerName": "Order ID",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "variables": [
+              {
+                "name": "v_employee_id",
+                "boundToField": "employee_id"
+              }
+            ],
+            "table": "grid",
+            "title": "",
+            "maxHeight": null,
+            "shouldRenderHidden": false
           }
         }
       }
     }
   },
-  "title" : "My team Quotas",
-  "versionName" : "1.0"
+  "title": "My team Quotas",
+  "versionName": "1.0"
 }
