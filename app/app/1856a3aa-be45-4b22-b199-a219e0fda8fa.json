@@ -196,7 +196,8 @@
             "helpIconValue": null,
             "helpIconPosition": "alignLeft",
             "helpIconTooltipPosiiton": "right",
-            "shouldRenderHidden": false
+            "shouldRenderHidden": false,
+            "internalName": "Tile 1 "
           },
           "control_9": {
             "type": "tile",
