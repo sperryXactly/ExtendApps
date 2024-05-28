@@ -1,0 +1,18 @@
+{
+  "variables": [
+    {
+      "name": "v_employee_id",
+      "value": "1",
+      "dataType": "String",
+      "queryId": "8deec5e6a30192e0b94640409ca7875b.ent92f24933544304f5b2b2c7d8bdf27",
+      "id": "f96de0bf59048156dbd48ba9bb66c1c3.ente07ce22c4867f02f5b6900c5dcb69"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "dunder_employee_total_sales",
+  "description": null,
+  "id": "8deec5e6a30192e0b94640409ca7875b.ent92f24933544304f5b2b2c7d8bdf27",
+  "xsql": "select FormatNumber(sum(o.amount), '$#,##0.00') as total_sales from $framework.dunderorders o join $framework.dunderemployees e on o.employee_id = e.employee_id where o.employee_id = :v_employee_id",
+  "dependencies": []
+}

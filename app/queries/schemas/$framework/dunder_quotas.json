@@ -1,0 +1,18 @@
+{
+  "variables": [
+    {
+      "name": "v_employee_id",
+      "value": "1",
+      "dataType": "String",
+      "queryId": "a1787297c50879d36cd3facd8046f1a9.ent92f24933544304f5b2b2c7d8bdf27",
+      "id": "4c17bdf7ee5ff0946fbc0b4859a74380.ente07ce22c4867f02f5b6900c5dcb69"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "dunder_quotas",
+  "description": null,
+  "id": "a1787297c50879d36cd3facd8046f1a9.ent92f24933544304f5b2b2c7d8bdf27",
+  "xsql": "Select e.*, FormatNumber(e.quota_amount, '$#,##0.00') as quota_formatted from $framework.dunderemployees e",
+  "dependencies": []
+}

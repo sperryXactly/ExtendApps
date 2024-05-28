@@ -1,0 +1,16 @@
+{
+  "policySet": {
+    "id": "0cef15d90ec65dc947c9670a63d2b748.ent5127879c00b84824a92e2cdaac53a",
+    "version": 1,
+    "name": "Dunder_Sales_Manager_Polcies",
+    "visibleToTenant": true,
+    "description": null,
+    "attributes": null,
+    "createdBy": null,
+    "createdInstant": null,
+    "modifiedBy": null,
+    "modifiedInstant": null
+  },
+  "policySetItems": [],
+  "policySetAssignments": null
+}

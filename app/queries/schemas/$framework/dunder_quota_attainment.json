@@ -1,0 +1,10 @@
+{
+  "variables": [],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "dunder_quota_attainment",
+  "description": null,
+  "id": "35579f329df9c8963dd443105725044c.ent92f24933544304f5b2b2c7d8bdf27",
+  "xsql": "select      total_sales,      employee_quota,      Round((total_sales / employee_quota) * 100, 2) || '%' as attainment_percentage from (     select          sum(o.amount) as total_sales,          e.quota_amount as employee_quota     from          $framework.dunderorders o     join          $framework.dunderemployees e on o.employee_id = e.employee_id     where          o.employee_id = :v_employee_id     group by          e.quota_amount );",
+  "dependencies": []
+}

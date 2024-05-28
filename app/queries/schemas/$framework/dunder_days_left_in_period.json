@@ -1,0 +1,10 @@
+{
+  "variables": [],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "dunder_days_left_in_period",
+  "description": null,
+  "id": "1944fc27ea4f0f6879f884b7a96ae0c5.ent92f24933544304f5b2b2c7d8bdf27",
+  "xsql": "select '45 Days' as daysLeft",
+  "dependencies": []
+}

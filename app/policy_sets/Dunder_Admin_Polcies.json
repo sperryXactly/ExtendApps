@@ -1,0 +1,16 @@
+{
+  "policySet": {
+    "id": "06a690ac75e47fde0a4821e0bdad0b08.ent5127879c00b84824a92e2cdaac53a",
+    "version": 1,
+    "name": "Dunder_Admin_Polcies",
+    "visibleToTenant": true,
+    "description": null,
+    "attributes": null,
+    "createdBy": null,
+    "createdInstant": null,
+    "modifiedBy": null,
+    "modifiedInstant": null
+  },
+  "policySetItems": [],
+  "policySetAssignments": null
+}

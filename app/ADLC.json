@@ -16,18 +16,19 @@
       {
         "name": "$framework.dunderemployees",
         "path": "tables/data/$framework/dunderemployees.csv"
-      },
-      {
-        "name": "dunderOrders",
-        "path": "tables/data/dunderOrders/undefined.csv"
-      },
-      {
-        "name": "dunderemployees",
-        "path": "tables/data/dunderemployees/undefined.csv"
       }
     ]
   },
   "queries": [
-    "queries/schemas/$framework/dunder_employee_quota.json"
+    "queries/schemas/$framework/dunder_employee_quota.json",
+    "queries/schemas/$framework/dunder_days_left_in_period.json",
+    "queries/schemas/$framework/dunder_employee_name.json",
+    "queries/schemas/$framework/dunder_quota_attainment.json",
+    "queries/schemas/$framework/dunder_quotas.json",
+    "queries/schemas/$framework/dunder_employee_total_sales.json"
+  ],
+  "policySets": [
+    "policy_sets/Dunder_Admin_Polcies.json",
+    "policy_sets/Dunder_Sales_Manager_Polcies.json"
   ]
 }

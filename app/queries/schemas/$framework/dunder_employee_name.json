@@ -1,0 +1,18 @@
+{
+  "variables": [
+    {
+      "name": "v_employee_id",
+      "value": "1",
+      "dataType": "String",
+      "queryId": "bc34e1df5dd84cb94fe786242cef7bd7.ent92f24933544304f5b2b2c7d8bdf27",
+      "id": "ffb72f76fdfd7aaf33db1ff454945979.ente07ce22c4867f02f5b6900c5dcb69"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "dunder_employee_name",
+  "description": null,
+  "id": "bc34e1df5dd84cb94fe786242cef7bd7.ent92f24933544304f5b2b2c7d8bdf27",
+  "xsql": "select distinct employee_name from $framework.dunderorders o join $framework.dunderemployees e on o.employee_id = e.employee_id where o.employee_id = :v_employee_id",
+  "dependencies": []
+}

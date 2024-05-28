@@ -1,11 +1,9 @@
-name,$id,$version,$created_by,$created_instant,$modified_by,$modified_instant,employee_id,employee_name,quota_amount
-,0c363c30bb9c0bba06ffd466bf8036eb.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,1,Michael Scott,50000
-,4a0f50cd7b608536b4b224917dd339b9.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,2,Dwight Schrute,60000
-,cf54aedaa4a4af9ee0045186e451988b.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,3,Jim Halpert,55000
-,fe3a2e9f86ca483f8bea046674d76ca7.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,4,Pam Beesly,52000
-,e2a732aaaeef39863495bbc9ce08cdc0.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,5,Andy Bernard,58000
-,f2d134ad2ea44381f12af3e24a93e392.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,6,Stanley Hudson,51000
-,cac4be9ddd32d8c42b1b9d8cbc78867f.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,7,Kelly Kapoor,49000
-,f20744677682d360302fd603259a573b.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,8,Ryan Howard,54000
-,cae2d6ec1abf94487c6781b5d2f13656.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,9,Angela Martin,53000
-,c3e4f77e5c597368be84365602f6c7db.ent8f50b94ecc28d2471fa36565f2bca,1,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,pm_nova_1@xactlycorp.com,2024-05-14T21:07:05.292Z,10,Oscar Martinez,57000
+name,employee_id,employee_name,quota_amount
+,1,Michael Scott,50000
+,2,Dwight Schrute,60000
+,3,Jim Halpert,55000
+,4,Pam Beesly,52000
+,5,Andy Bernard,58000
+,6,Stanley Hudson,51000
+,8,Ryan Howard,54000
+,10,Oscar Martinez,57000
