@@ -1,7 +1,7 @@
 {
   "accessRoles": [],
-  "applicationId": "829d9567-ffdd-42fc-9748-57e0519d96c7",
-  "applicationName": "Quota Management",
+  "applicationId": "0f417f51-90de-49d3-bc3a-b8236d04f4e4",
+  "applicationName": "Quota Managament",
   "applicationState": "DRAFT",
   "defaultBranch": "develop",
   "gitSubpath": "QuotaManagement",
