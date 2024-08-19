@@ -1,3 +1,6 @@
 {
-  "application": "app/Application.json"
+  "application": "app/Application.json",
+  "policySets": [
+    "policy_sets/Dunder_Admin_Polcies.json"
+  ]
 }
