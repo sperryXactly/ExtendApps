@@ -7,5 +7,14 @@
   "gitSubpath": "App2",
   "gitUrl": "https://github.com/sperryXactly/ExtendApps",
   "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "sec",
+      "icon": "Alert Circle",
+      "pageDefinitionId": "4bd8cb30-f3cf-46b5-b8c2-fac440611474",
+      "sections": []
+    }
+  ]
 }

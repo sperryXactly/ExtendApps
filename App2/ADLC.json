@@ -2,5 +2,8 @@
   "application": "app/Application.json",
   "policySets": [
     "policy_sets/Dunder_Admin_Polcies.json"
+  ],
+  "pageDefinitions": [
+    "app/4bd8cb30-f3cf-46b5-b8c2-fac440611474.json"
   ]
 }
