@@ -1,7 +1,7 @@
 {
   "accessRoles": [],
   "applicationId": "72def15a-2612-428c-aa2d-ae22c214b4e5",
-  "applicationName": "delete",
+  "applicationName": "Quota Management",
   "applicationState": "DRAFT",
   "defaultBranch": "develop",
   "gitSubpath": "QuotaManagement",
