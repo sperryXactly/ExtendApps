@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "f8ab8cc4-a457-4290-af97-232d95379e6d",
+  "applicationName": "App1",
+  "applicationState": "DRAFT",
+  "defaultBranch": "develop",
+  "gitSubpath": "App1",
+  "gitUrl": "https://github.com/sperryXactly/ExtendApps",
+  "icon": "LogoIconOnlyAnalyticsComponent",
+  "sections": "[]"
+}
