@@ -1,0 +1,136 @@
+{
+  "pageDefinitionId" : "e37deef3-2a8c-46ef-a4d5-becf87350216",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_3" : {
+            "type" : "workflowButton",
+            "controlId" : "38966d56-3093-42b9-903e-f9866c02b9b4",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "controlData" : "Workflow Button",
+            "xSQL" : "call StartXFlow(XFlowName='Dunder_Launch_Quota')",
+            "workflowName" : "Dunder_Launch_Quota",
+            "layoutSize" : null,
+            "buttonColorType" : "primary",
+            "shouldRenderHidden" : false,
+            "shouldRunSync" : false
+          },
+          "control_2" : {
+            "type" : "table",
+            "controlId" : "5118c4c6-ceb2-4b4b-af7d-ec5c4a41e203",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5118c4c6-ceb2-4b4b-af7d-ec5c4a41e203",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "dunder_quota_types",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "name",
+              "name" : "name",
+              "headerName" : "name",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$id",
+              "name" : "$id",
+              "headerName" : "$id",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$version",
+              "name" : "$version",
+              "headerName" : "$version",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_by",
+              "name" : "$created_by",
+              "headerName" : "$created_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_instant",
+              "name" : "$created_instant",
+              "headerName" : "$created_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_by",
+              "name" : "$modified_by",
+              "headerName" : "$modified_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_instant",
+              "name" : "$modified_instant",
+              "headerName" : "$modified_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false
+          }
+        }
+      }
+    }
+  },
+  "title" : "Create Quota",
+  "versionName" : "1.0"
+}
