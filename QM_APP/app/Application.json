@@ -1,0 +1,49 @@
+{
+  "applicationId" : "ae6ee6b2-d0f6-4283-80ad-e7ba4adc121b",
+  "applicationName" : "Quota Management",
+  "icon" : "LogoIconOnlyBenchmarkingComponent",
+  "sections" : [ {
+    "name" : "Quota Home",
+    "icon" : "Home",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "My Quotas",
+    "icon" : "User",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "My Team Quotas",
+    "icon" : "Group",
+    "pageDefinitionId" : "184b1eaa-8c35-4164-9110-9da4b9959dd4",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "Quota Management",
+    "icon" : "Settings",
+    "description" : "",
+    "sections" : [ {
+      "name" : "Create Quota",
+      "icon" : "Address Book",
+      "pageDefinitionId" : "e37deef3-2a8c-46ef-a4d5-becf87350216",
+      "description" : "",
+      "sections" : [ ],
+      "accessRoles" : null,
+      "privileges" : null
+    } ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sperryXactly/ExtendApps",
+  "defaultBranch" : "develop",
+  "gitSubpath" : "/QM_APP",
+  "applicationI18nFiles" : [ ]
+}
