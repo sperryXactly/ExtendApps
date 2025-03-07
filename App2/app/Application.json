@@ -1,0 +1,20 @@
+{
+  "accessRoles": [],
+  "applicationId": "4f6edd5b-f6e8-496d-b21b-8932f80bf04d",
+  "applicationName": "App2",
+  "applicationState": "DRAFT",
+  "defaultBranch": "develop",
+  "gitSubpath": "App2",
+  "gitUrl": "https://github.com/sperryXactly/ExtendApps",
+  "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "sec",
+      "icon": "Alert Circle",
+      "pageDefinitionId": "4bd8cb30-f3cf-46b5-b8c2-fac440611474",
+      "sections": []
+    }
+  ]
+}

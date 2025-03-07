@@ -1,0 +1,15 @@
+{
+  "description": null,
+  "pageDefinitionId": "4bd8cb30-f3cf-46b5-b8c2-fac440611474",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "asdf",
+  "versionName": "1.0"
+}

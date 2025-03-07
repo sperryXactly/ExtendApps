@@ -1,0 +1,23 @@
+{
+  "application" : "app/Application.json",
+  "queries" : [ "queries/$framework/dunder_employee_quota.json", "queries/$framework/dunder_days_left_in_period.json", "queries/$framework/dunder_employee_name.json", "queries/$framework/dunder_quota_attainment.json", "queries/$framework/dunder_quotas.json", "queries/$framework/dunder_employee_total_sales.json" ],
+  "workflows" : [ "workflows/Dunder_Launch_Quota.json" ],
+  "pageDefinitions" : [ "app/6743bd74-db56-4a8d-b1d1-f3af5d430e18.json", "app/faca8063-40ed-426f-9c5c-d9c0f8f4374c.json" ],
+  "policySets" : null,
+  "tables" : {
+    "schemas" : [ "tables/schemas/$framework/dunderOrders.json", "tables/schemas/$framework/dunderemployees.json", "tables/schemas/$framework/dunder_quota_types.json", "tables/schemas/$framework/rankingTable.json" ],
+    "data" : [ {
+      "name" : "$framework.dunderOrders",
+      "path" : "tables/data/$framework/dunderOrders.csv"
+    }, {
+      "name" : "$framework.dunderemployees",
+      "path" : "tables/data/$framework/dunderemployees.csv"
+    }, {
+      "name" : "$framework.dunder_quota_types",
+      "path" : "tables/data/$framework/dunder_quota_types.csv"
+    }, {
+      "name" : "$framework.rankingTable",
+      "path" : "tables/data/$framework/rankingTable.csv"
+    } ]
+  }
+}
